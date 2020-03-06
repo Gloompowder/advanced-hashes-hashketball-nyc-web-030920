@@ -215,6 +215,7 @@ new_array = []
           index += 1
         end
           x
+          binding.pry
         end
       end
     end
