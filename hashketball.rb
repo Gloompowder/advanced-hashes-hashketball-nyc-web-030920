@@ -208,6 +208,7 @@ new_array = []
       if attribute == :players 
         data.each do |player|
           new_array << player[:shoe]
+        end
           index = 0 
           x = 0 
           while index < new_array.length do 
@@ -218,7 +219,6 @@ new_array = []
         end
           x
           binding.pry
-        end
       end
     end
   end
