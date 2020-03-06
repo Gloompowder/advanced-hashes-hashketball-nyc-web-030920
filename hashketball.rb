@@ -207,9 +207,10 @@ new_array = []
     team.each do |attribute, data| 
       if attribute == :players 
         data.each do |player|
-          shoe_sizes = player[:shoe]
-          new_array << shoe_sizes
-          new_array.max
+          biggest_shoe_so_far = 0 
+          if player[:shoe] > x 
+            biggest_shoe_so_far = player[:shoe]
+          end
         end
       end
     end
