@@ -208,7 +208,7 @@ new_array = []
       if attribute == :players 
         data.each do |player|
           biggest_shoe_so_far = 0 
-          if player[:shoe] > x 
+          if player[:shoe] > biggest_shoe_so_far
             biggest_shoe_so_far = player[:shoe]
           end
         end
