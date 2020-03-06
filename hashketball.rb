@@ -211,6 +211,6 @@ biggest_shoe_so_far = 0
             biggest_shoe_rebound = player[:rebound]
       end
     end
-    return biggest_shoe_rebound
   end
+  return biggest_shoe_rebound
 end
