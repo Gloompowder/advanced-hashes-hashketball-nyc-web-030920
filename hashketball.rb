@@ -211,7 +211,7 @@ new_array = []
           if player[:shoe] > biggest_shoe_so_far
             biggest_shoe_so_far = player[:shoe]
           end
-          
+          binding.pry
         end
       end
     end
