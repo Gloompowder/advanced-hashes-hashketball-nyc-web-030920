@@ -209,6 +209,7 @@ new_array = []
         data.each do |player|
           shoe_sizes = player[:shoe]
           new_array << shoe_sizes
+          new_array.max
         end
       end
     end
