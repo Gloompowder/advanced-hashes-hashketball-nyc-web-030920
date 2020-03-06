@@ -209,8 +209,8 @@ biggest_shoe_so_far = 0
           if player[:shoe] > biggest_shoe_so_far
             biggest_shoe_so_far = player[:shoe]
             biggest_shoe_rebound = player[:rebound]
-          binding.pry
       end
+      return biggest_shoe_rebound
     end
   end
 end
