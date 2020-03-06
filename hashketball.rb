@@ -212,7 +212,7 @@ new_array = []
           x = 0 
           while index < new_array.length do 
             x = new_array[index]
-          index += 
+          index += 1
         end
           x
         end
