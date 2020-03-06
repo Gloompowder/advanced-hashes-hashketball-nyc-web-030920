@@ -209,16 +209,6 @@ new_array = []
         data.each do |player|
           new_array << player[:shoe]
         end
-          index = 0 
-          x = 0 
-          while index < new_array.length do 
-            if new_array[index] > x
-            x = new_array[index]
-          end
-          index += 1
-        end
-          x
-          binding.pry
       end
     end
   end
