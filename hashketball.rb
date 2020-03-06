@@ -207,7 +207,8 @@ new_array = []
     team.each do |attribute, data| 
       if attribute == :players 
         data.each do |player|
-          new_array << player[:shoe]
+          shoe_sizes = player[:shoe]
+          new_array << shoe_sizes
         end
       end
     end
